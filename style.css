@@ -1,0 +1,371 @@
+*{
+  line-height: 1.80857;
+  overflow-x: hidden;
+  font-family: Raleway;
+  scroll-behavior: smooth;
+  padding: 0;
+}
+  ::-webkit-scrollbar{
+    width: 18px;
+  }
+  ::-webkit-scrollbar-track{
+    background-color: #F8F8F8;
+    border-radius: 10px;
+  }
+  ::-webkit-scrollbar-thumb{
+    background-color: #ff5333;
+    border-radius: 10px;
+  }
+header{
+  width: 100%;
+  height: auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 5px;
+  margin-top: 10px;
+  margin-bottom: 20px;
+  position: relative;
+  
+}
+.navigation,a{
+text-decoration: none;
+color: black;
+padding: 10px;
+text-transform: uppercase;
+font-size: 120%;
+font-weight: 3500;
+letter-spacing: 1px;
+}
+.search-img{
+  margin: 10px 40px 0 0;
+}
+.home{
+  background-color: #003C61;
+  color: #fff;
+  letter-spacing: 3px;
+}
+.navigation a:hover{
+  color: #fff;
+  background-color: #003C61;
+}
+.sec-one{
+  width: 100%;
+  height:500px;
+  background-color: #F8F8F8;
+  position: relative;
+}
+section h1{
+  width: 100%;
+ float: left;
+ font-size: 80px;
+  font-weight: bold;
+  text-transform: uppercase;
+  color: #003C61;
+  position: absolute;
+  left: 5%;
+  top: 5%;
+}
+.sec-one-img{
+ max-width: 50%;
+ height: auto;
+  float: right;
+  vertical-align: middle;
+  position: absolute;
+  right: 0;
+ top: 15%;
+}
+.sec-one-p{
+  text-transform: capitalize;
+  color: #202020;
+  font-weight: 350;
+  font-size: 18px;
+ position: absolute;
+ top: 50%;
+ left: 5%;
+}
+.btn-one{
+  border-style: none;
+  outline: none;
+  color: #ffffff;
+  background-color: #ff5333;
+  border-radius: 5px;
+  text-align: center;
+  text-transform: uppercase;
+  padding: 12px;
+  position: absolute;
+  bottom: 15%;
+  left: 5%;
+}
+.btn-two{
+  border-style: none;
+  outline: none;
+  color: #ffffff;
+  background-color: #003C61;
+  border-radius: 5px;
+  text-align: center;
+  text-transform: uppercase;
+  padding: 12px;
+  position: absolute;
+  bottom: 15%;
+  left: 15%;
+}
+.sec-two{
+  text-align: center;
+  color: #040000;
+  font-size: large;
+}
+.sec-two button{
+  width: 15%;
+  border-style: none;
+  text-transform: capitalize;
+  text-align: center;
+  font-size: 16px;
+  color: #ffffff;
+  background-color: #003c61;
+  padding: 10px 0px;
+  border-radius: 10px;
+  margin-top: 30px;
+}
+
+.classes{
+  width: 100%;
+  height: auto;
+ position: relative;
+ overflow: hidden;
+}
+
+.g:hover{
+  background-color: #ff5333;
+}
+.d:hover{
+  background-color: #ff5333;
+}
+.m:hover{
+  background-color: #ff5333;
+}
+.b:hover{
+  background-color: #ff5333;
+}
+.p:hover{
+  background-color: #ff5333;
+}
+
+.dancing{
+  display: inline-block;
+  font-size: 18;
+ padding: 90px;
+  background-color: #ff5333;
+  color: #fff;
+  border-radius: 5px;
+  text-align: center;
+  text-transform: capitalize;
+  margin-left: 50px;
+}
+.m,.d,.p,.g,.b{
+  display: inline-block;
+padding: 90px;
+font-size: 18px;
+  background-color: #B7B7B7;
+  color: #fff;
+  border-radius: 5px;
+  text-align: center;
+  text-transform: capitalize;
+  margin-left: 50px;
+}
+h3{
+  text-transform: capitalize;
+  font-size: 50px;
+  font-weight: 100;
+  margin-left: 50px;
+}
+.classes-img{
+width: 25%;
+position: absolute;
+right: 0;
+bottom: -3%;
+}
+.classes button{
+  text-transform: uppercase;
+text-align: center;
+font-size: 15px;
+padding: 13px;
+background-color: #003C61;
+color: #fff;
+width: 15%;
+border-style: none;
+border-radius: 5px;
+margin-left: 50px;
+margin-top: 15px;
+}
+
+button:hover{
+  background-color: #ff5333;
+}
+.sec-three{
+  width: 100%;
+  background-image: url(images/dancer-bg.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  text-align: center;
+  color: #040000;
+  font-size: large;
+}
+h4{
+  text-transform: uppercase;
+  font-size: 50px;
+  font-weight: 100;
+  text-align: center;
+}
+.sec-three-p{
+  text-transform: capitalize;
+  color: #202020;
+  font-weight: 350;
+  font-size: 18px;
+  text-align: center;
+}
+.sec-three-btn{
+  width: 15%;
+  border-style: none;
+  text-transform: capitalize;
+  text-align: center;
+  font-size: 16px;
+  color: #ffffff;
+  background-color: #003c61;
+  padding: 10px 0px;
+  border-radius: 10px;
+  margin-top: 30px;
+  letter-spacing: 1px;
+}
+.container{
+  width: 100%;
+  height: 70px;
+  position: relative;
+  text-transform: capitalize;
+  font-size: large;
+  font-weight: 700;
+}
+.hiphop{
+position: absolute;
+left: 5%;
+top: 15%;
+}
+.hiphop-hr{
+position: absolute;
+left: 20%;
+top: 40%;
+width: 50%;
+}
+.hiphop-t{
+position: absolute;
+right: 5%;
+top: 15%;
+
+}
+.container-two{
+  width: 100%;
+  height: 1000px;
+  position: relative;
+  text-transform: uppercase;
+  font-size: 15px;
+  background-color: #FCFCFC;
+}
+.one{
+  width: 50%;
+  height: auto;
+  background-color: #F8F8F8;
+  position: absolute;
+  left: 10%;
+  top: 10%;
+  border-radius: 10px;
+  padding: 15px;
+}
+.img-3{
+  width:20%;
+  height: auto;
+  position: absolute;
+  right: 18%;
+  top: 10%;
+}
+.two{
+  width: 50%;
+  height: auto;
+  background-color: #F8F8F8;
+  position: absolute;
+  right: 10%;
+  top: 40%;
+  border-radius: 10px;
+  padding: 15px;
+ 
+}
+.img-4{
+  width:20%;
+  height: auto;
+  position: absolute;
+  left: 18%;
+  top: 40%;
+}
+.border{
+  border-bottom: solid 5px #ff5333;
+  
+  }
+
+.three{
+  width: 50%;
+  height: auto;
+  background-color: #F8F8F8;
+  position: absolute;
+  left: 10%;
+  bottom: 0;
+  border-radius: 10px;
+  padding: 15px;
+  
+}
+.img-5{
+  width:20%;
+  height: auto;
+  position: absolute;
+  right: 18%;
+  bottom: 0%;
+}
+
+
+input{
+  top: 50%;
+  width: 50%;
+  height: 70px;
+  text-transform: capitalize;
+  border-style: none;
+  outline: none;
+  border-bottom: 1px solid;
+}
+.send-btn{
+  border-style: none;
+  outline: none;
+  color: #ffffff;
+  background-color: #ff5333;
+  border-radius: 50px;
+  text-align: center;
+  text-transform: uppercase;
+margin: 20px;
+  padding: 10px;
+  width: 10%;
+  font-size: 19px;
+}
+.footer{
+  width: 100%;
+  height: 300px;
+  background-color: #1B1B1B;
+  position: relative;
+}
+.copy-right{
+  width: 100%;
+  height: auto;
+  background-color: #040000;
+}
+.copy{
+  color: #fff;
+  font-size: large;
+  font-weight: bold;
+  text-align: center;
+}
