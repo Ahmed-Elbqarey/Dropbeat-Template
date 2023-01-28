@@ -211,7 +211,7 @@ button:hover {
 }
 .sec-three {
   width: 100%;
-  background-image: url(images/dancer-bg.png);
+  background-image: url(../images/dancer-bg.png);
   background-size: cover;
   background-repeat: no-repeat;
   text-align: center;
